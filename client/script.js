@@ -118,7 +118,7 @@ const handleSubmit = async (prompt) => {
     
     const data = { prompt }
     
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://e6fb-2a00-801-704-fbf-117e-655a-670e-b3e1.ngrok-free.app', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -946,6 +946,24 @@ $('.content_text').fadeIn(1555);
 
 
 
+
+
+
+// loading screen
+
+
+   // Function to hide the loading bar after 10 seconds
+        function hideLoadingBar() {
+            const fullscreenBg = document.getElementById('fullscreen-bg');
+            if (fullscreenBg) {
+                fullscreenBg.style.display = 'none';
+            }
+        }
+
+        // Add a listener to call hideLoadingBar when the page is fully loaded
+        window.addEventListener('load', () => {
+            setTimeout(hideLoadingBar, 10000); // Hide after 10 seconds
+        });
 
 
   
