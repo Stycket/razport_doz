@@ -835,22 +835,22 @@ $(document).ready(function() {
       link: 'https://codepen.io/rasmus-p-lundin/full/ZEVmdmx',
     },
     {
-      imageSrc: '',
+      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/midjourney.png',
       title: 'Midjourney UI Design',
-      paragraph: 'Paragraph 7',
-      link: 'https://example.com/link7',
+      paragraph: 'Concept UI konst jag tänkt realisera på ett snyggt sätt.',
+      link: 'https://codepen.io/rasmus-p-lundin/full/JjweQax',
     },
     {
-      imageSrc: 'https://picsum.photos/900/500?technology=8',
-      title: 'Desert Oasis',
-      paragraph: 'Paragraph 8',
+      imageSrc: 'https://codepen.io/rasmus-p-lundin/full/qBLQzLw',
+      title: 'Horsee',
+      paragraph: 'Landningssida jag experimenterar med, klicka på hamburgarn.',
       link: 'https://example.com/link8',
     },
     {
-      imageSrc: 'https://picsum.photos/900/500?technology=9',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'TBA',
       paragraph: 'Jobbar på en SaaS produkt, söker även investerare. Ring bankmannen!',
-      link: 'https://example.com/link9',
+      link: 'https://codepen.io/rasmus-p-lundin',
     }
   ];
 
