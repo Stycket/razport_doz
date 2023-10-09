@@ -962,7 +962,7 @@ $('.content_text').fadeIn(1555);
 
         // Add a listener to call hideLoadingBar when the page is fully loaded
         window.addEventListener('load', () => {
-            setTimeout(hideLoadingBar, 10000); // Hide after 10 seconds
+            setTimeout(hideLoadingBar, 5555); // Hide after 10 seconds
         });
 
 
