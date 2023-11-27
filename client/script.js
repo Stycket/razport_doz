@@ -119,7 +119,7 @@ const handleSubmit = async (prompt) => {
     
     const data = { prompt }
     
-    const response = await fetch('https://e6fb-2a00-801-704-fbf-117e-655a-670e-b3e1.ngrok-free.app', {
+    const response = await fetch('https://razport.grabobastu.se/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
