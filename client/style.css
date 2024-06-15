@@ -1092,7 +1092,7 @@ canvas{
 
 .cardContainer {
     background-color: #3a3a3a;
-  position:absolut;
+  position:absolute;
     z-index: 55;
 }
 
