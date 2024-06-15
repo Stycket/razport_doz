@@ -1089,7 +1089,6 @@ canvas{
 .cardContainer {
     position: absolute;
 
-    transform: translate(-50%, -50%); /* Move .cardContainer back by half of its own width and height */
 
 }
 
