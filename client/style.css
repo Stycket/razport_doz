@@ -1087,13 +1087,15 @@ canvas{
 /*---------------*/
 
 .card {
-   
+   background: #3a3a3a;
+z-index: 55;
+position: absolute;
+top: 5%;
+left: 5%;
 }
 
 .cardContainer {
-    background-color: #3a3a3a;
-  position:absolute;
-    z-index: 55;
+
 }
 
 
