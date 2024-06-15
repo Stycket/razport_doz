@@ -1087,13 +1087,12 @@ canvas{
 /*---------------*/
 
 .cardContainer {
-	background: #3a3a3a;
- 
-  z-index:55;
-
-
- 
-  
+    background: #3a3a3a;
+    z-index: 55;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
