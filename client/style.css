@@ -1087,17 +1087,12 @@ canvas{
 /*---------------*/
 
 .card {
-    display: flex;
-    justify-content: center; /* Center  */
-    align-items: center; /* Center vertically */
-    height: 300px; /* Example height for card */
-    background-color: #f0f0f0; /* Example background color for card */
+   
 }
 
 .cardContainer {
     background-color: #3a3a3a;
-    width: 200px; /* Example width for cardContainer */
-    height: 150px; /* Example height for cardContainer */
+  position:absolut;
     z-index: 55;
 }
 
