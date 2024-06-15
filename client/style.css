@@ -1086,18 +1086,20 @@ canvas{
 /***** Milo *****/
 /*---------------*/
 
-.card {
-   background: #3a3a3a;
-z-index: 55;
-position: absolute;
-top: 5%;
-left: 5%;
-}
-
 .cardContainer {
-
+    position: relative;
+    width: 80%; /* Set a width for .cardContainer */
+    margin: 0 auto; /* Center .cardContainer  */
 }
 
+.card {
+    background: #3a3a3a;
+    z-index: 55;
+    position: absolute;
+    top: 5%;
+    left: 0; /* Position .card relative to .cardContainer */
+    width: 100%; /* Full width of .cardContainer */
+}
 
 
 
