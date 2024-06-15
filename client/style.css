@@ -1156,8 +1156,8 @@ gallery
 }
 
 .image-preview {
-  width: 63%;
-  height: 55%;
+  width: 63vw;
+  height: 55vh;
   background-image: url('https://picsum.photos/300/300');
   background-size: cover;
   background-position: center;
