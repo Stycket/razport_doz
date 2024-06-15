@@ -1088,22 +1088,16 @@ canvas{
 
 .cardContainer {
     position: absolute;
-    top: 50%; /* Align top of .cardContainer to 50% of the parent's height */
-    left: 50%; /* Align left of .cardContainer to 50% of the parent's width */
+
     transform: translate(-50%, -50%); /* Move .cardContainer back by half of its own width and height */
-    background-color: #3a3a3a;
-    z-index: 55;
-    width: 80%; /* Adjust width as needed */
-    padding: 20px; /* Add padding as needed */
+
 }
 
 .card {
     background: #3a3a3a;
     z-index: 55;
     position: absolute;
-    top: 5%;
-    left: 0; /* Position .card relative to .cardContainer */
-    width: 100%; /* Full width of .cardContainer */
+
 }
 
 
