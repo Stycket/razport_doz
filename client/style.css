@@ -1087,18 +1087,22 @@ canvas{
 /*---------------*/
 
   .cardcontainer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%; /* Adjust as necessary */
-            height: 100vh; /* Adjust as necessary */
-            border: 1px solid #000; /* Optional, for visual reference */
+           position: absolute;
+top:-100vh;
+height:63vh;
+width:42%;
+right:13%;
+color:antiquewhite;
+z-index:7;
+transition:1.55s;
+border-radius:14px;
+background: rgba(26, 14, 4, 0.55);
+backdrop-filter: blur(42px);
+padding:5%;
+box-shadow:0px -2px 14px 11px rgba(0, 0, 0, 0.2);
         }
         .card {
-            width: 300px; /* Adjust as necessary */
-            height: 200px; /* Adjust as necessary */
-            background-color: #f0f0f0; /* Optional, for visual reference */
-            border: 1px solid #000; /* Optional, for visual reference */
+        
         }
 
 
