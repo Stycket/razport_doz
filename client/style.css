@@ -1049,13 +1049,16 @@ canvas{
 /*---------------*/
 
 .cardContainer {
-	background: #3a3a3a;
-
-  z-index:55;
-
-  position:absolute;
- 
-  
+  background: #3a3a3a;
+  z-index: 55;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -1171,15 +1174,31 @@ position: absolute;
 
 
 
+To center the .gallery element both  and vertically within its parent, you can use a combination of CSS Flexbox and some adjustments to the existing styles. Below is the modified CSS for your .gallery class and the container to ensure it appears centered:
+
+css
+Kopiera kod
+.cardContainer {
+  background: #3a3a3a;
+  z-index: 55;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* gallery */
 .gallery {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  left: 36%;
-  top: 144px;
   background: rgba(8, 109, 84, 0.55);
   border-radius: 9px;
   transition: 0.55s;
+  padding: 20px;
 }
 
 
