@@ -1053,8 +1053,10 @@ canvas{
 
   z-index:55;
 
-  position:absolute;
- 
+
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
   
 }
 
@@ -1172,13 +1174,17 @@ position: absolute;
 
 
 .gallery {
-  display: flex;
+ display: flex;
   flex-direction: row;
   position: absolute;
- 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
   background: rgba(8, 109, 84, 0.55);
   border-radius: 9px;
   transition: 0.55s;
+	
 }
 
 
