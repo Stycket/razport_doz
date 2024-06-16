@@ -840,7 +840,7 @@ button:focus {
 opacity:0;
 z-index:0;
 
-  background: #0f0f0f;
+  background: none;
   transition:0.55s;
 
   position: relative;
@@ -1014,7 +1014,7 @@ transition:0.55s;
 .uxcontainer{
   
   top:0px;
-
+background:none;
 
     position: relative;
   width: 100%;
