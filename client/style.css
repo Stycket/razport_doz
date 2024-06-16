@@ -1086,13 +1086,16 @@ canvas{
 /***** Milo *****/
 /*---------------*/
 
-  .cardcontainer {
-background: #3a3a3a;
+.cardContainer {
+	background: #3a3a3a;
+  width:42%;
+  height:42%;
+  z-index:55;
 
-z-index:55;
-
-position:absolute;
-
+  position:absolute;
+  top:3%;
+  left:3%;
+  
 }
         }
 
