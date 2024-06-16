@@ -1086,17 +1086,20 @@ canvas{
 /***** Milo *****/
 /*---------------*/
 
-.cardContainer {
-   background:green;
-position: relative;
-top:0%;
-	left:0%;
-}
-
-.card {
- 
-background:gray;
-}
+  .cardcontainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%; /* Adjust as necessary */
+            height: 100vh; /* Adjust as necessary */
+            border: 1px solid #000; /* Optional, for visual reference */
+        }
+        .card {
+            width: 300px; /* Adjust as necessary */
+            height: 200px; /* Adjust as necessary */
+            background-color: #f0f0f0; /* Optional, for visual reference */
+            border: 1px solid #000; /* Optional, for visual reference */
+        }
 
 
 
