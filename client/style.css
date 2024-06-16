@@ -1050,13 +1050,11 @@ canvas{
 
 .cardContainer {
 	background: #3a3a3a;
-  width:42%;
-  height:42%;
+
   z-index:55;
 
   position:absolute;
-  top:3%;
-  left:3%;
+ 
   
 }
 
