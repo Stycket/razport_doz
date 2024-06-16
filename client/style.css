@@ -1088,13 +1088,13 @@ canvas{
 
 .cardContainer {
    background:green;
-
+position: absolute;
+top:0%;
+	left:0%;
 }
 
 .card {
- position: absolute;
-top:0%;
-	left:0%;
+ 
 background:gray;
 }
 
