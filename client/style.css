@@ -836,7 +836,7 @@ button:focus {
 }
 
 .ux{
-  z-index: 1111111;
+
 opacity:0;
 z-index:0;
 
@@ -896,7 +896,7 @@ height:42px;
   left:1.8%;
  color: antiquewhite;
  font-size:21px;
- z-index: 1111111;
+ 
  cursor:pointer;
 }
 
@@ -1012,7 +1012,7 @@ transition:0.55s;
 
 
 .uxcontainer{
-   z-index: 1111111;
+  
   top:0px;
 background:none;
 
