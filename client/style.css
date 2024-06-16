@@ -471,7 +471,7 @@ transform:scale(1.055);
 
 .roboten{
 top:0%;
-  position:relative;
+  position:absolute;
   max-height:100%;
 }
 
