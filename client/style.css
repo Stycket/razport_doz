@@ -1087,14 +1087,14 @@ canvas{
 /*---------------*/
 
 .cardContainer {
-    position: absolute;
-top:0%;
-	left:0%;
+   
 
 }
 
 .card {
-
+ position: absolute;
+top:0%;
+	left:0%;
 
 }
 
