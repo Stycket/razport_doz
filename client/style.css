@@ -25,43 +25,6 @@
 cursor: url(https://ani.cursors-4u.net/others/oth-9/oth873.cur), auto;
 }
 
-
-
-
-   /* Styling for the fullscreen black div */
-        #fullscreen-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            z-index: 9999;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* Styling for the loading bar */
-        #loading-bar {
-            width: 100px;
-            height: 5px;
-            background-color: green;
-            animation: loading 10s linear infinite;
-        }
-
-        /* Keyframes for the loading animation */
-        @keyframes loading {
-            0% {
-                width: 0;
-            }
-            100% {
-                width: 100%;
-            }
-        }
-
-
-
 .custom-cursor {
   position: fixed;
   top: -33px;
@@ -254,8 +217,8 @@ cursor:pointer;
  position:absolute;
  top:72px;
  box-shadow:0px -2px 14px 11px rgba(0, 0, 0, 0.2);
-max-height:100%;
-height:100%;
+max-height:420px;
+height:420px;
 padding-left:1.8%;
 padding-right:1.8%;
   margin-left:33%;
@@ -505,10 +468,9 @@ transform:scale(1.055);
 }
 
 .roboten{
-top:0%;
+top:18%;
   position:absolute;
-  max-height:100%;
-	
+  max-height:63%;
 }
 
 
@@ -1097,12 +1059,8 @@ canvas{
   left:3%;
   
 }
-        }
 
 
-        .card {
-        
-        }
 
 
 
@@ -1220,7 +1178,7 @@ position: absolute;
   flex-direction: row;
   position: absolute;
   left: 36%;
-  top: 0px;
+  top: 144px;
   background: rgba(8, 109, 84, 0.55);
   border-radius: 9px;
   transition: 0.55s;
