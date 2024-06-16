@@ -1050,12 +1050,12 @@ canvas{
 
 .cardContainer {
 	background: #3a3a3a;
-display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Adjust as needed to ensure it covers the full height */
-  width: 100vw;  /* Adjust as needed to ensure it covers the full width */
-  position: relative; /* Important for absolute positioning within this container */
+
+  z-index:55;
+
+  position:absolute;
+ 
+  
 }
 
 
@@ -1174,10 +1174,12 @@ position: absolute;
 .gallery {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  left: 36%;
+  top: 144px;
   background: rgba(8, 109, 84, 0.55);
   border-radius: 9px;
   transition: 0.55s;
-	
 }
 
 
