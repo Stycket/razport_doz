@@ -198,8 +198,7 @@ cursor:pointer;
   transition:0.55s;
   position:absolute;
   top:0px;
-  width: 100vw;
-  height: 100vh;
+
   
   z-index:5;
   display: flex;
