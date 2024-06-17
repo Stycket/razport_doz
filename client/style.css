@@ -199,7 +199,7 @@ cursor:pointer;
 
   transition:0.55s;
   position:absolute;
-  top:0px;
+  top:21%;
   width: 100vw;
   height: 100vh;
   
@@ -470,7 +470,7 @@ transform:scale(1.055);
 }
 
 .roboten{
-top:21%;
+
   position:absolute;
   max-height:100%;
 }
