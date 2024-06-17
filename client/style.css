@@ -1195,7 +1195,7 @@ position: absolute;
 
 
 .cardContainer {
-  background: #3a3a3a;
+  background: none;
   z-index: 55;
   position: absolute;
   top: 0;
