@@ -842,7 +842,7 @@ button:focus {
 opacity:0;
 z-index:0;
 
-  background: rgba (0,0,0, 0);
+  background: none;
   transition:0.55s;
 
   position: relative;
@@ -898,7 +898,7 @@ height:42px;
   left:1.8%;
  color: antiquewhite;
  font-size:21px;
- z-index:111;
+ 
  cursor:pointer;
 }
 
@@ -1016,7 +1016,7 @@ transition:0.55s;
 .uxcontainer{
   
   top:0px;
-  background: rgba (0,0,0, 0);
+background:none;
 
     position: relative;
   width: 100%;
