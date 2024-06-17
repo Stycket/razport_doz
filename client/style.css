@@ -199,7 +199,7 @@ cursor:pointer;
 
   transition:0.55s;
   position:absolute;
-top:21%;
+  top:0px;
   width: 100vw;
   height: 100vh;
   
@@ -470,7 +470,7 @@ transform:scale(1.055);
 }
 
 .roboten{
-
+top:21%;
   position:absolute;
   max-height:100%;
 }
@@ -1067,12 +1067,8 @@ canvas{
 /***** Milo *****/
 /*---------------*/
 
-center;
-}
-
-
 .cardContainer {
-  
+ 
   z-index: 55;
   position: absolute;
   top: 0;
@@ -1083,6 +1079,10 @@ center;
   justify-content: center;
   align-items: center;
 }
+
+
+
+
 
 
 
@@ -1206,6 +1206,3 @@ position: absolute;
   transition: 0.55s;
   padding: 20px;
 }
-
-
-
