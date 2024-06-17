@@ -270,7 +270,7 @@ $('#openux').click(function() {
 
       setTimeout(function() {
         $('.closeux').css({
-          'z-index': '9',
+          'z-index': '999',
           'opacity': '1',
         });
       },);
