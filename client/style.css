@@ -1067,12 +1067,7 @@ canvas{
 /***** Milo *****/
 /*---------------*/
 
-.cardContainer {
-  background: #3a3a3a;
-  z-index: 55;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+center;
 }
 
 
@@ -1080,7 +1075,7 @@ canvas{
   background: #3a3a3a;
   z-index: 55;
   position: absolute;
-  top: 21%;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
