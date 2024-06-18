@@ -199,7 +199,7 @@ cursor:pointer;
 
   transition:0.55s;
   position:absolute;
-  top:110px;
+ 
   width: 100vw;
   height: 100vh;
   
@@ -341,7 +341,7 @@ form {
   width: 42%;
 position:absolute;
 left:45.5%;
-top:490px;
+top:55%;
 display:flex;
 flex-direction: column;
   margin: 0 auto;
@@ -470,7 +470,7 @@ transform:scale(1.055);
 }
 
 .roboten{
-top:20%;
+top:14%;
   position:absolute;
   max-height:100%;
 }
@@ -1072,6 +1072,9 @@ canvas{
 
 
 
+
+
+
 /*
 
 gallery
@@ -1160,9 +1163,9 @@ gallery
   padding: 27px 42px;
   cursor: pointer;
   font-size: 14px;
-  margin-left: 63%;
-  bottom:5px;
-position: absolute;
+  margin-left: 55%;
+  bottom:33px;
+position: relative;
   border-radius: 4px;
   transition: background-color 0.3s ease; /* Add transition effect */
 }
@@ -1181,7 +1184,7 @@ position: absolute;
 
 
 .cardContainer {
-  background: forestgreen;
+  background: none;
   z-index: 55;
   position: absolute;
   top: 0;
