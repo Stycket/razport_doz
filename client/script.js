@@ -894,7 +894,8 @@ $(document).ready(function() {
       $('.image-preview').css('background-image', 'url("' + menuItemData.imageSrc + '")');
       $('.text-preview').text(menuItemData.title);
       
-      $('.paragraph-preview').html('Paragraph ' + (menuIndex + 1) + '<button class="open-link">View</button>');
+      $('.paragraph-preview').html(menuItemData.paragraph + '<button class="open-link">View</button>');
+
 
 // Attach the link to the "Open Link" button
 $('.open-link').data('link', menuItemData.link);      
