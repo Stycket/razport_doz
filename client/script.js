@@ -802,7 +802,7 @@ $(document).ready(function() {
     {
       imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/dragonpathy0.png',
       title: 'Dragonpath',
-      paragraph: 'Ett RPG spel gjort med openai. Låt servern ladda klart vid varje klick, inte fixat laddningsanimation än.',
+      paragraph: 'Ett RPG spel gjort med openai. Låt servern ladda klart vid varje klick, inte fixat laddningsanimation än',
       link: 'https://dragonpath-doz.vercel.app/',
     },
     {
