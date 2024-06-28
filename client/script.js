@@ -119,7 +119,7 @@ const handleSubmit = async (prompt) => {
     
     const data = { prompt }
     
-    const response = await fetch('https://razport.grabobastu.se/', {
+    const response = await fetch('https://razport.grabobastu.se/game', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
