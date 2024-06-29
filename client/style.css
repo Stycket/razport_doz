@@ -17,12 +17,14 @@
 
 
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 cursor: url(https://ani.cursors-4u.net/others/oth-9/oth873.cur), auto;
+
 }
 
 .custom-cursor {
@@ -1086,7 +1088,9 @@ gallery
 .menu {
   background: rgba(0, 0, 0, 0.55);
   width: 200px;
-  height: auto;
+  min-width: 200px;
+  max-width: 200px;
+  height: 690px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1147,37 +1151,40 @@ gallery
 
 .paragraph-preview {
   font-size: 16px;
-  display: flex;
-  align-items: center;
+  width:63%;
+  /* Optional: Add other styling if needed */
+display:flex;
+  
+
 }
 
 .paragraph-preview p {
-  margin: 0;
-  flex: 1; /* To make the paragraph text take up available space */
+
+
 }
 
 .open-link {
-  background-color: #97410f; /* Material Design blue */
-  color: antiquewhite;
+  background-color: #c5c2c1; /* Material Design blue */
+  color: #272727;
   border: none;
   padding: 27px 42px;
   cursor: pointer;
   font-size: 14px;
-  margin-left: 55%;
-  bottom:33px;
+  left:42%;
+  bottom:11px;
 position: relative;
   border-radius: 4px;
   transition: background-color 0.3s ease; /* Add transition effect */
 }
 
 .open-link:hover {
-  background-color: #1976D2; /* Darker shade of blue on hover */
+  background-color: #2a2a2a; /* Darker shade of blue on hover */
   cursor:pointer;
 }
 
 .open-link:active {
-  background-color: #97410f; /* Darker shade of blue on hover */
-  
+  background-color: #c5c2c1; /* Darker shade of blue on hover */
+  color:#272727;
 }
 
 
@@ -1203,5 +1210,6 @@ position: relative;
   background: rgba(8, 109, 84, 0.55);
   border-radius: 9px;
   transition: 0.55s;
-  padding: 20px;
+  max-width:78vw;
+ 
 }
