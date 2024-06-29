@@ -119,7 +119,7 @@ const handleSubmit = async (prompt) => {
     
     const data = { prompt }
     
-    const response = await fetch('https://razport.grabobastu.se/game', {
+    const response = await fetch('https://razport.grabobastu.se/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -800,49 +800,49 @@ $(document).ready(function() {
   // Define an array of data for the menu items
   var menuData = [
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/dragonpathy0.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Dragonpath',
       paragraph: 'Ett RPG spel gjort med openai. Låt servern ladda klart vid varje klick, inte fixat laddningsanimation än',
       link: 'https://dragonpath-doz.vercel.app/',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/bastuklubben.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Bastu Bokningssystem',
       paragraph: 'Bastuföreningen i bygden behövde en bokningsserver, bygger denna just nu. Låt servern starta tar några sekunder. Demo konto: bastuexempel@gmail.com | password',
       link: 'https://bastu.webflow.io',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/oliver.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Olivprodukter',
       paragraph: 'Lokalföretagare som ville ha en statisk hemsida. Byggde dock swishbetalnings system för beställningar också. Ni kan pröva boka, med ett stochkolms postnr, då endast gbg postnr funkar.',
       link: 'https://www.olivprodukter.se',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/noteplus.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Note Deluxe',
       paragraph: 'Trött på o bli bländad när man sitter och skriver poesi på nätterna. Under konstruktion.',
       link: 'https://codepen.io/rasmus-p-lundin/full/bGOQPjB',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/searchzone.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Wikilux (SearchZone) Beta 0.55',
       paragraph: 'Bara den översta raden av keywordzen funkar än så länge.',
       link: 'https://codepen.io/rasmus-p-lundin/full/eYbQwQr',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/trackerzone.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Tracker Zone',
       paragraph: 'Litet projekt jag byggde. Ska finputsa och vidareutveckla i sinom tid.',
       link: 'https://codepen.io/rasmus-p-lundin/full/ZEVmdmx',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/midjourney.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Midjourney UI Design',
       paragraph: 'Concept UI konst jag tänkt realisera på ett snyggt sätt.',
       link: 'https://codepen.io/rasmus-p-lundin/full/JjweQax',
     },
     {
-      imageSrc: 'https://olivprodukter.se/raz_projectz/stuff/razport/client/projectz_imagez/horsee.png',
+      imageSrc: 'https://images4.alphacoders.com/270/27094.jpg',
       title: 'Horsee',
       paragraph: 'Landningssida jag experimenterar med, klicka på hamburgarn.',
       link: 'https://codepen.io/rasmus-p-lundin/full/qBLQzLw',
@@ -914,19 +914,22 @@ $('.content_text').fadeIn(1555);
     var link = $(this).data('link');
 
     // Change the background color of the button when clicked
-    $(this).css('background-color', '#97410f'); // Change 'red' to your desired color
+    $(this).css('background-color', '#c5c2c1'); // Change '' to your desired color
+   
 
     var button = document.querySelector('.open-link');
 
     // Add hover effect using JavaScript
     button.addEventListener('mouseenter', function() {
-      // Change the background color to blue when hovered over
-      button.style.backgroundColor = 'green';
+      // Change the background color to  when hovered over
+      button.style.backgroundColor = '#2a2a2a';
+      button.style.color = 'antiquewhite';
     });
 
     button.addEventListener('mouseleave', function() {
-      // Change the background color back to green when the mouse leaves
-      button.style.backgroundColor = '#97410f';
+      // Change the background color back to  when the mouse leaves
+      button.style.backgroundColor = '#c5c2c1';
+      button.style.color = '#272727';
     });
 
 
