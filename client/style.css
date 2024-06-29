@@ -1151,10 +1151,10 @@ gallery
 
 .paragraph-preview {
   font-size: 16px;
-  width:63%;
+  max-width:63%;
   /* Optional: Add other styling if needed */
 display:flex;
-  
+  background:#272727;
 
 }
 
